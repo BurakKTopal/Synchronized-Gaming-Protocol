@@ -35,7 +35,11 @@ In this way, if the move the player wants to play is illegal, no data is sent to
 anything echoed back: as this is the _only_ way to 'really' change his position, the player's position doesn't change.
 If with this fake move the client picks up a fruit, then he sets in his message to the server the right ID(namely 6) to 
 notify the server that it has picked up a fruit. The server then sends to _all_ player's the new fruit update, and 
-the client which have taken the fruit while taking into account the synchronization Algorithm.
+the client which have taken the fruit while taking into account the synchronization Algorithm. 
+
+The following flowchart represents nicely the combination of the fake move and the echo move:
+
+![](Media/ClientPlaysMove.png)
 
 ## Synchronization Algorithm
 The calculation is done as follows:
