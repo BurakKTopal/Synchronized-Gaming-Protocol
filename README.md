@@ -455,7 +455,7 @@ in this protocol there was made use of 'echo moves', so the client sends a messa
 sends it synchronously with the other client back to him. But nonetheless, we seem to approach a
 minimum of (extra) data transfer; 1 byte!
 
-### Further refinement, problems to assess
+## Further refinement, problems to assess
 As no protocol is perfect, neither is mine. So in this section, we will give a short 
 description on the things in which this protocol might fail, and other things this protocol does
 not provide yet.
