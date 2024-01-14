@@ -494,7 +494,7 @@ not provide yet.
 
 
 ## Extra
-### Usage, server
+### Usage server
 For the server, the port and host-name are obligatory. There are also two optional
 parameters there can be given; the number of players the server supports, and
 if the plotting of the collected data should be shown or not.
@@ -512,7 +512,7 @@ If you only want to start up the server, with the default values:
 python Server.py <port> <host>
 ```
 
-### Usage, client + additional ping simulating
+### Usage client + additional ping simulating
 For the client, the port and host-name are obligatory. There can be added a 
 _additional ping_ with the client through the third parameter for testing. If left empty, then
 there will not be simulated an extra latency. Thus we get for the usage:
